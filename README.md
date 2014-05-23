@@ -1,9 +1,12 @@
 AVL Tree
 =========
 
-A splay tree is a self-adjusting Binary Search Tree with the additional property that recently accessed elements are quick to access again. It performs basic operations such as insertion, look-up and removal in O(log n) amortized time. For many sequences of non-random operations, splay trees perform better than other search trees, even when the specific pattern of the sequence is unknown.
-
-All normal operations on a binary search tree are combined with one basic operation, called splaying. Splaying the tree for a certain element rearranges the tree so that the element is placed at the root of the tree.
+An AVL tree (Adelson-Velskii and Landis' tree, named after the inventors) is a self-balancing binary search tree. 
+It was the first such data structure to be invented.[1] In an AVL tree, the heights of the two child subtrees of 
+any node differ by at most one; if at any time they differ by more than one, rebalancing is done to restore this 
+property. Lookup, insertion, and deletion all take O(log n) time in both the average and worst cases, where n is 
+the number of nodes in the tree prior to the operation. Insertions and deletions may require the tree to be rebalanced 
+by one or more tree rotations.
 
 ##Functionalities
 
