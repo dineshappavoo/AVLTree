@@ -1,5 +1,9 @@
 package avltree;
 
+/**
+ * @author Dinesh Appavoo
+ *
+ */
 class AVLNode<T extends Comparable<T>, U extends Comparable<U>> {
     public AVLNode<T, U> left;
     public AVLNode<T, U> right;
