@@ -6,6 +6,11 @@ package avltree;
 import java.util.ArrayList;
 
 /**
+ * @author Dinesh Appavoo
+ *
+ */
+
+/**
  * This class is the complete and tested implementation of an AVL-tree.
  */
 public class AVLTree<T extends Comparable<T>, U extends Comparable<U>> {
